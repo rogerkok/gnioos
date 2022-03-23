@@ -1,0 +1,112 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+  /* Autor Frieden */
+  background-color: #f4f4f4 !important;
+}
+
+.logo img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.input-research{
+  position: relative;
+  bottom: 70px;
+  left: 110px;
+}
+.input-research input{
+  border-radius: 50px;
+}
+.links{
+  position: relative;
+ font-family: "helvetica";
+ margin-left: 500px;
+ bottom: 55px; 
+ font-size: 11px; 
+ font-weight: bolder;
+}
+
+
+/****========
+    Header ==========
+    ****/
+
+.menu{
+  position: relative;
+  bottom: 45px;
+  height: 80px;
+}
+.temperature{
+  background-color: #ff0066;
+  height: 80px;
+}
+.links-menu{
+  margin: 1px;
+}
+
+.btn-button{
+  color: #fff;
+  background-color: #333399;
+}
+
+.btn-button:hover{
+  color: #fff;
+  background-color: #ff0066;
+
+}
+
+
+/* Author Frieden KODJO*/
+
+	/* News Categories */
+.catlinks {
+ position: relative;
+ font-family: "helvetica";
+ font-size: 11px; 
+ font-weight: bolder;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.catlinksactive {
+  text-decoration: underline pink;
+}
+
+.catname {
+	color: #333399;
+}
+
+.biglinks {
+	font-size: 20px;
+	margin-left: 40px;
+	font-weight: bolder;
+}
+
+#biglinksection {
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 40px;
+	
+}
+
+.image-news {
+	padding: 5px;
+}
+
+
+.text-news {
+	font-size: 6pt;
+}
+
+.footercopyright {
+	background-color: lightgrey;
+}
