@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    image: gnioos
+    container_name: gnioosweb
+    environment:
+      - VIRTUAL_HOST=localhost.com
+      - HTTPS_METHOD=noredirect
+    restart: always
+    ports:
+      - "8084:80"
+networks:
+  default:
+    external:
+      name: gnioosnet
